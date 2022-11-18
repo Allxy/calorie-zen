@@ -1,5 +1,6 @@
 import React from 'react';
 import './AppContainer.css';
+import FoodAdder from './FoodAdder';
 
 function AppContainer() {
   return (
@@ -7,7 +8,7 @@ function AppContainer() {
       <div className="calories">
         <h2>Калории:</h2>
       </div>
-      <h2>Добавьте продукты</h2>
+      <FoodAdder />
     </div>
   );
 }
