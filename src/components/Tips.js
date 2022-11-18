@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./Tips.css";
 
 function Tips() {
-  const [list, setList] = useState();
   
+  const [list, setList] = useState();
+
   useEffect(() => {
     fetch("https://api.nomoreparties.co/todays-tips-rus")
       .then((res) => {
@@ -13,7 +14,7 @@ function Tips() {
         setList(Object.values(res));
       });
   }, []);
-  
+
   return (
     <div className="tips">
       <ul className="tips__list">
