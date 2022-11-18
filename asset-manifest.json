@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/calorie-zen/static/css/main.8439729d.css",
-    "main.js": "/calorie-zen/static/js/main.b07315d2.js",
+    "main.js": "/calorie-zen/static/js/main.5692e5c2.js",
     "static/media/sumana.woff": "/calorie-zen/static/media/sumana.9597fc34422e3ca4f27b.woff",
     "static/media/roboto.woff": "/calorie-zen/static/media/roboto.59d18e163bfcd0607572.woff",
     "index.html": "/calorie-zen/index.html",
     "main.8439729d.css.map": "/calorie-zen/static/css/main.8439729d.css.map",
-    "main.b07315d2.js.map": "/calorie-zen/static/js/main.b07315d2.js.map"
+    "main.5692e5c2.js.map": "/calorie-zen/static/js/main.5692e5c2.js.map"
   },
   "entrypoints": [
     "static/css/main.8439729d.css",
-    "static/js/main.b07315d2.js"
+    "static/js/main.5692e5c2.js"
   ]
 }
