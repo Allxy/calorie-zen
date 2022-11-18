@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
-import AppContainer from './AppContainer';
+import Diary from './Diary';
 
 function App() {
   return (
     <>
       <Header />
-      <AppContainer />
+      <Diary />
     </>
   );
 }

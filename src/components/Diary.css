@@ -3,12 +3,16 @@
   font-family: 'Roboto';
 }
 
-.container {
-  font-family: 'Roboto';
+@font-face {
+  src: url(../fonts/sumana.woff) format('woff');
+  font-family: 'Sumana';
+}
+
+.diary {
   display: flex;
   justify-content: center;
+  font-family: 'Roboto';
   min-height: 70vh;
-  margin-top: 50px;
 }
 
 .calories {
@@ -21,9 +25,21 @@
   border-bottom-right-radius: 0;
 }
 
-.container h2 {
+.diary h2 {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.2;
   margin-top: 25px;
+}
+
+.calories__list {
+  font-family: 'Sumana';
+  list-style: none;
+  color: white;
+  padding: 0;
+  margin-left: -20px;
+  font-size: 24px;
+  line-height: 70px;
+  font-weight: bold;
+  margin-top: 36px;
 }
